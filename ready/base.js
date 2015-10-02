@@ -4,6 +4,7 @@
 
 $(document).ready(function(){
   console.log( "The page says:", $("h1").text() );
+    $('h1').append(' Go!');
 });
 
 $("h1").text("Go!");
